@@ -1,0 +1,56 @@
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Headings */
+h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* About */
+#about p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Skills */
+#skills .badge {
+  font-size: 1rem;
+  background: linear-gradient(45deg, #007bff, #6610f2);
+  color: #fff;
+  border-radius: 25px;
+  transition: transform 0.3s;
+}
+#skills .badge:hover {
+  transform: scale(1.1);
+}
+
+/* Projects */
+.project-card img {
+  height: 200px;
+  object-fit: cover;
+}
+.project-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Contact */
+#contact form input, 
+#contact form textarea {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+#contact button {
+  border-radius: 25px;
+}
